@@ -1,6 +1,6 @@
-#include <studio.h>
+#include <stdio.h>
 /**
- * main entry
+ * main - entry
  *
 *Return: 0 after printing function
 */
