@@ -1,9 +1,9 @@
 #include <string.h>
 /**
- * *_strcyp - copy string
+ * *_strcpy - copy string
  * @dest: char parameter
  * @src: char parameter
- * Return: char 
+ * Return: char
  */
 
 char *_strcpy(char *dest, char *src)
