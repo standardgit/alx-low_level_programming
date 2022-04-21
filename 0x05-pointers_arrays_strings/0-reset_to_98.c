@@ -1,5 +1,5 @@
 /**
- * reset_to_98.c - take pointer to an int parameter
+ * reset_to_98 - take pointer to an int parameter
  * 
  * @n: int parameter
  *
