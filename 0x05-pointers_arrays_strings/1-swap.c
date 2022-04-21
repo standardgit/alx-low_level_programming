@@ -12,5 +12,5 @@ int num;
 
 num = *a;
 *a = *b;
-*b = num
+*b = num;
 }
