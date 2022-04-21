@@ -22,7 +22,7 @@ else
 {
 continue;
 }
-i++
+i++;
 }
 _putchar('\n');
 }
