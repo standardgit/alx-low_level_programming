@@ -17,9 +17,9 @@ while (s[i] != '\0')
 i++;
 }
 
-for (i = i - 1; i >= 0; i++)
+for (i = i - 1; i >= 0; i--)
 {
-printf("%s", s[i]);
+_putchar(s[i]);
 }
-printf("\n");
+_putchar('\n');
 }
