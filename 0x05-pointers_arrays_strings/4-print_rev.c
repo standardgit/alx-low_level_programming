@@ -1,5 +1,5 @@
-#include <string.h>
 #include <stdio.h>
+#include <string.h>
 /**
  * print_rev - reverse a string
  *
@@ -10,8 +10,5 @@
 
 void print_rev(char *s)
 {
-char str;
-
-str = strrev(s);
-puts(str);
+printf("%s\n", strrev(s));
 }
