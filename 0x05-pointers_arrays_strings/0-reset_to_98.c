@@ -1,6 +1,6 @@
 /**
  * reset_to_98 - take pointer to an int parameter
- * 
+ *
  * @n: int parameter
  *
  * Return: Nothing
