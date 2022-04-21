@@ -13,7 +13,7 @@ int num;
 num = strlen(str);
 if (num % 2 != 0)
 {
-i = strlen(str) - 1 / 2;
+i = (strlen(str) - 1) / 2;
 }
 else
 {
