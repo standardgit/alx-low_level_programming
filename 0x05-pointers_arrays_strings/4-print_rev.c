@@ -19,7 +19,7 @@ i++;
 
 for (i = i - 1; i >= 0; i++)
 {
-_putchar(s[i]);
+printf("%s", s[i]);
 }
-_putchar('\n');
+printf("\n");
 }
