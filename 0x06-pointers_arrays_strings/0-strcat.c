@@ -8,10 +8,6 @@
 
 char *_strcat(char *dest, char *src)
 {
-char s[1] = "\n";
-char *dests;
-dests = strtok(dest, s);
-
-strcat(dests, src);
+strcat(dest, src);
 return (dests);
 }
