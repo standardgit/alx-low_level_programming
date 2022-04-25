@@ -12,7 +12,7 @@ char s[1] = "\n";
 char *srcs;
 char *dests;
 dests = strtok(dest, s);
-srcs = strtok(strs, s);
+srcs = strtok(src, s);
 
 strcat(dests, srcs);
 return (dests);
