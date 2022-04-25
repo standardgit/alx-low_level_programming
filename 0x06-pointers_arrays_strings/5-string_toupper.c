@@ -1,4 +1,4 @@
-#include <ctype.h>
+#include <string.h>
 /**
  * *string_toupper - turn string to upper case
  * @s: char parameter
@@ -7,6 +7,6 @@
 
 char *string_toupper(char *s)
 {
-toupper(s);
+strupr(s);
 return (s);
 }
