@@ -10,7 +10,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 char s[1] = "\n";
-char *srcs = strtok(strs, s);
+char *srcs = strtok(src, s);
 char *dests =  strtok(dest, s);
 
 strncat(dests, srcs, n);

@@ -9,11 +9,9 @@
 char *_strcat(char *dest, char *src)
 {
 char s[1] = "\n";
-char *srcs;
 char *dests;
 dests = strtok(dest, s);
-srcs = strtok(src, s);
 
-strcat(dests, srcs);
+strcat(dests, src);
 return (dests);
 }
