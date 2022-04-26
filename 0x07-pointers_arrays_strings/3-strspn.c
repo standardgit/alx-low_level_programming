@@ -8,7 +8,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-int result;
+unsigned int result;
 result = strspn(s, accept);
 return (result);
 }
