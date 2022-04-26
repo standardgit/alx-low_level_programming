@@ -8,8 +8,6 @@
 
 char *_strchr(char *s, char c)
 {
-char result;
-
-result = strchr(s, c);
+char result = strchr(s, c);
 return (result);
 }
