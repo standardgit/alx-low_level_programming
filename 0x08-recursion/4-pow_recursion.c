@@ -1,4 +1,4 @@
-#include <math.h>
+
 
 /**
  * _pow_recursion - get power of a int
@@ -9,12 +9,17 @@
 
 int _pow_recursion(int x, int y)
 {
-int i;
-i = pow(x, y);
-if (i == 0)
+if (y < 0)
 {
 return (-1);
 }
-
-return (i);
+if (y == 0)
+{
+return (1);
+}
+if (y == 1)
+{
+return (x);
+}
+return (x * _pow_recursion(x, y - 1));
 }
