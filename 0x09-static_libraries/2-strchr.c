@@ -1,8 +1,14 @@
-
-   
 #include <string.h>
+/**
+ * *_strchr - string
+ * @s: char parameter
+ * @c: char parameter
+ * Return: char
+ */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strchr(char *s, char c)
 {
-return (strncat(dest, src, n));
+char *result;
+result = strchr(s, c);
+return (result);
 }
