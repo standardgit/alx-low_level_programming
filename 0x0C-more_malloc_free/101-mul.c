@@ -39,7 +39,7 @@ return (p);
   * @len2: len num2
   * Return: void
   */
-void mult(int *product, char *n1, char *n2, int len1, int len2)
+void mul(int *product, char *n1, char *n2, int len1, int len2)
 {
 /* declarations */
 int i;
@@ -152,6 +152,6 @@ if (res == NULL)
 {
 err(98);
 }
-mult(res, argv[1], argv[2], len1, len2);
+mul(res, argv[1], argv[2], len1, len2);
 free(res);
 return (0);
