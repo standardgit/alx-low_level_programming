@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * binary_to_uint - converts binary string to uint
  * @b: string with binary num
@@ -7,8 +8,10 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num;
+
 	if (!b)
 		return (0);
+
 	for (num = 0; *b; b++)
 	{
 		if (*b == '1')
