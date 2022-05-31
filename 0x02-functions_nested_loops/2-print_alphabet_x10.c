@@ -1,20 +1,25 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - entry
- *
- * Return: 0 after run
- */
+  * print_alphabet_x10- prints the alphabet 10x
+  *
+  * Return ()
+  *
+  */
 void print_alphabet_x10(void)
 {
-  int n, i;
-  i = 0;
-  while (i < 10)
-    for (n = 'a'; n <= 'z'; n++)
-    {
-      -putchar(n);
-      };
-      i++;
-      putchar('\n');
-  }
+char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+int counter;
+int x;
+
+	while (x < 10)
+	{
+		for (counter = 0; counter < 26; counter++)
+
+		{
+			_putchar(alphabet[counter]);
+		}
+	_putchar('\n');
+	x++;
+	}
 }
