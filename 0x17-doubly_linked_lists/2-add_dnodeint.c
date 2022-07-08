@@ -32,12 +32,3 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	}
 	return (new);
 }
-	for (b = 0, i = 0; i < len; i++)
-		b += argv[1][i] * argv[1][i];
-	p[4] = l[(b ^ 239) & 63];
-	for (b = 0, i = 0; (char)i < argv[1][0]; i++)
-		b = rand();
-	p[5] = l[(b ^ 229) & 63];
-	printf("%s\n", p);
-	return (0);
-}
