@@ -13,7 +13,3 @@ fclean :
 	$(RM) *~ $(NAME) $(OBJ)
 re : oclean $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
