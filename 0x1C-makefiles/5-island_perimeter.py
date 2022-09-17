@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""
-Island perimeter
-"""
+"""this is the module for island_perimeter()"""
 
-def island_perimeter(grid):   
+
+def island_perimeter(grid):
     """to get the len of the perimeter of island"""
     answer = 0
     for y, row in enumerate(grid):
