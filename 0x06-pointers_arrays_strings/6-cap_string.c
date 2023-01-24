@@ -1,39 +1,33 @@
+#include "main.h"
 /**
- * *cap_string - capitalise string
- * @s: char parameter
- * Return: capitalice letter
- */
-
+  * cap_string- a function to cap first letters of words in string
+  * @s: that's our string
+  *
+  *
+  *
+  * Return: answer
+  */
 char *cap_string(char *s)
 {
-int i;
-i = 0;
-for (i = 0; s[i] != '\0'; i++)
-{
-if (i == 0)
-{
-if ((s[i] >= 'a' && s[i] <= 'z'))
-{
-s[i] = s[i] - 32;
-continue;
-}
-}
-if (s[i] == ' ' || s[i] == ',' || s[i] == '.' || s[i] == '!' || s[i] == '?' || s[i] == '"' || s[i] == '(' || s[i] == ')' || s[i] == '{' || s[i] == '}')
-{
-++i;
-if (s[i] >= 'a' && s[i] <= 'z')
-{
-s[i] = s[i] - 32;
-continue;
-}
-}
-else
-{
-if (s[i] >= 'A' && s[i]<= 'Z')
-{
-s[i] = s[i] + 32;
-}
-}
-}
-return (s);
+	int i = 0;
+	int z = 1;
+	char *answer = s;
+	char *spesh = " \t\n;,.!?\"(){}\0";
+
+	while (*s)
+	{
+		if (z)
+		{
+			if (*s >= 'a' && *s <= 'z')
+				*s -= 32;
+			z = 0;
+		}
+		for (i = 0; spesh[i]; i++)
+		{
+			if (*s == spesh[i])
+				z = 1;
+		}
+		s++;
+	}
+	return (answer);
 }
